@@ -1,0 +1,161 @@
+  html,body{
+    margin:0;
+    height:100%;
+  }
+  .country:hover{
+    stroke: #fff;
+    stroke-width: 1.5px;
+  }
+  .text{
+    font-size:10px;
+    text-transform:capitalize;
+  }
+  #container {
+    height:100%;
+    background: #98CCFF;
+  }
+  .hidden { 
+    display: none; 
+  }
+  div.tooltip {
+    color: #000000; 
+    background: #ffffff; 
+    padding: 10px 5px 10px 5px; 
+    border-radius: 10px; 
+    font-family:Verdana;
+    opacity: 0.9; 
+    position: absolute;
+  }
+  .graticule {
+    fill: none;
+    stroke: #bbb;
+    stroke-width: .5px;
+    stroke-opacity: .5;
+  }
+  .equator {
+    stroke: #ccc;
+    stroke-width: 1px;
+  }
+  .slider-div{
+    position: absolute;
+    text-align: center;
+    top:70%;
+    left:40%;    
+  }
+  .title-div{
+    position: absolute;
+    text-align: left;
+    top:80%;
+    left:40%;    
+    background-color: rgb(124, 166, 207);
+    color: rgba(255, 255, 255, 0.88);
+    padding: 10px;
+  }  
+  .year-div-left{
+    display: inline-block;
+    margin-top:12px;
+    font-size:14px;
+    float:left;
+  }
+  .year-div-right{
+    display: inline-block;
+    margin-top:12px;
+    font-size:14px;
+    float:right;
+  }  
+  #slider{
+    width: 500px;
+  }
+  #slider-year{
+    display: inline-block;
+    background-color: rgb(1, 95, 191);
+    padding: 10px;
+    margin-top: 10px;
+    color: white;
+  }
+  .chart{
+    display: none;
+    position:absolute;
+    left:0;
+    top:30%;
+    background-color: rgba(0, 0, 0, 0.19);
+  }
+  #flag{
+    float:left;
+  }
+  #country{
+    top: 20%;
+    text-align: left;
+    font-size: 13px;
+    margin-left: 20px;
+    padding-left: 14px;
+  }
+  #visitor_chart{
+    top:30%;
+  }
+  #cost_chart{
+    top:60%;
+  }
+
+  .chart-title-div{
+    display: none;
+    text-align: left !important;
+    padding: 10px 10px 10px 2px!important;
+    border-radius: 4px;
+    font-size:12px;
+  }
+
+  .chart div {
+    font: 6px sans-serif;
+    text-align: right;
+    padding: 3px;
+    margin: 1px;
+    color: white;
+  }
+  #visitor_chart div{
+    background-color: rgba(31,69,179,1);
+  }
+  #cost_chart div{
+    background-color: rgb(189, 159, 9);
+  }
+
+  .color-div{
+    position: absolute;
+    top: 20%;
+    left: 10px;
+}
+
+  .color{
+    width: 100px;
+    height: 20px;
+    background: blue; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, rgb(0,255,255) ,rgb(0,0,255)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, rgb(0,255,255) ,rgb(0,0,255)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, rgb(0,255,255) ,rgb(0,0,255)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, rgb(0,255,255) ,rgb(0,0,255)); /* Standard syntax */
+  }
+
+  .color-desc{
+    font-size:12px;
+    margin-top:6px;
+    color:#0000C1;
+  }
+
+  .title{
+    font-size:20px;
+    font-weight: 800;
+  }
+
+  .sub-title{
+    font-size:10px;
+    margin-top:5px;
+  }
+
+  .ui-widget-header {
+    background: #98CCFF !important;
+  }
+
+  .ui-widget-content {
+    background: #98CCFF !important;
+  }
+

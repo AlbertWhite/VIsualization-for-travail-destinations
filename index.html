@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>D3 World Map Template | TechSlides</title>
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.css" />  
+<link rel="stylesheet" href="css/map.css" />  
+</head>
+<body>
+
+  <div class="slider-div">  
+    <div id="slider"></div>
+    <div class="year-div-left">2005</div>  
+    <div class="year-div-right">2014</div>
+    <div id="slider-year">YEAR 2014</div>      
+  </div>
+
+  <div class="title-div">
+    <div class="title">Data visualization for worldwide travellers from 2005-2014</div>
+    <div class="sub-title">Data source: http://www2.unwto.org/content/data-0</div>
+    <div class="sub-title">Usage: <br/>1. The different color indicates the popularity among visitors. The darker the blue is, the more popular the country is.<br/>2. Pan and Zoom the map to navigate<br/>3. Hover on the country to check the number of visitors and the average cost<br/>4. Drag the slider to change the year</div>
+  </div>
+
+  <div class="color-div">
+    <div class="color"></div>
+    <div class="color-desc">*The more visitors,<br/>the darker blue of the country</div>
+  </div>
+
+ <div class="chart">
+  <div style="background:#015FBF;">
+    <img id="flag"/>
+    <div id="country"></div>
+  </div>
+  <div class="chart-title-div">Visitors from 2005 to 2014</div>
+  <div  id="visitor_chart"></div>
+  <div  class="chart-title-div">Average Cost of Visitors from 2005 to 2014($)</div>
+  <div  id="cost_chart"></div>
+</div>
+<div id="container"></div>
+
+
+<script src="js/d3.min.js"></script>
+<script src="js/topojson.v1.min.js"></script>
+<!--  
+  <link rel="stylesheet" type="text/css" src="css/jquery-ui.css">
+  <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+  <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+-->
+<link rel="stylesheet" type="text/css" src="css/jquery-ui.min.css">
+
+<script src="js/world.js"></script>
+</body>
+</html>
