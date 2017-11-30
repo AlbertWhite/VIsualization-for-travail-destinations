@@ -14,16 +14,16 @@
     height:100%;
     background: #98CCFF;
   }
-  .hidden { 
-    display: none; 
+  .hidden {
+    display: none;
   }
   div.tooltip {
-    color: #000000; 
-    background: #ffffff; 
-    padding: 10px 5px 10px 5px; 
-    border-radius: 10px; 
+    color: #000000;
+    background: #ffffff;
+    padding: 10px 5px 10px 5px;
+    border-radius: 10px;
     font-family:Verdana;
-    opacity: 0.9; 
+    opacity: 0.9;
     position: absolute;
   }
   .graticule {
@@ -40,17 +40,17 @@
     position: absolute;
     text-align: center;
     top:70%;
-    left:40%;    
+    left:40%;
   }
   .title-div{
     position: absolute;
     text-align: left;
     top:80%;
-    left:40%;    
+    left:40%;
     background-color: rgb(124, 166, 207);
     color: rgba(255, 255, 255, 0.88);
     padding: 10px;
-  }  
+  }
   .year-div-left{
     display: inline-block;
     margin-top:12px;
@@ -62,7 +62,7 @@
     margin-top:12px;
     font-size:14px;
     float:right;
-  }  
+  }
   #slider{
     width: 500px;
   }
@@ -102,11 +102,11 @@
     text-align: left !important;
     padding: 10px 10px 10px 2px!important;
     border-radius: 4px;
-    font-size:12px;
+    font-size:15px !important;
   }
 
   .chart div {
-    font: 6px sans-serif;
+    font: 12px sans-serif;
     text-align: right;
     padding: 3px;
     margin: 1px;
@@ -147,8 +147,9 @@
   }
 
   .sub-title{
-    font-size:10px;
+    font-size:12px;
     margin-top:5px;
+    line-height: 16px;
   }
 
   .ui-widget-header {
